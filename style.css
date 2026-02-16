@@ -1,0 +1,145 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1e1e2f;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+/* Main Section */
+.Main {
+    height: 80vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Main h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.Main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #eeeeee;
+}
+
+/* Sections */
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+/* Cards Layout */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #f0f4f4;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.roadmap li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #00adb5;
+    color: white;
+}
+
+.resource-card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.resource-card:hover {
+    background: #e0f7fa;
+    transform: translateY(-5px);
+}
+
